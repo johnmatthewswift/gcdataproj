@@ -51,7 +51,7 @@ The first column "subject" contains integers representing the test subject (from
 
 The second column "activity" contains a string indicating which of the 6 activities the subject was performing one of "walking",  "walking_upstairs", "walking_downstairs", "sitting", "standing", "laying". 
 
-The subsequent 66 columns contain averages of mean() and std() variation functions from the original data set. The headings are explained in the original data description and quoted here:
+The subsequent 66 columns contain numerical averages of mean() and std() variation functions from the original data set. The headings are explained in the original data description and quoted here:
 
 "
 
