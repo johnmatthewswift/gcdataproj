@@ -44,20 +44,22 @@ http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartpho
 ##Creating the tidy datafile
 
 ###Guide to create the tidy data file
-To create the tidy data file the raw data should be downloaded from the linke supplied above, and the "UCI HAR Dataset" should be placed in the working directory. The R script from this repository "run_analysis.R" should then be ran, and the tidy data output will be supplied into the working directory in a file named "output_table.txt".
+To create the tidy data file the raw data should be downloaded from the link supplied above, and the "UCI HAR Dataset" should be placed in the working directory. The R script from this repository "run_analysis.R" should then be ran, and the tidy data output will be supplied into the working directory in a file named "output_table.txt".
 
 ###Cleaning of the data
 6 files from the raw data were loaded ("test/subject_test.txt", "test/X_test.txt", "test/y_test.txt", "train/subject_train.txt", "train/X_train.txt", "train/y_train.txt") containing subject information.
 
 These files were then merged to associate subject and activity information with measurements, and to combine test and train data.
 
-The "features.txt" file was then loaded and used determine which measurements were of means or standard deviations, thsi was taken to mean any feature containing the functions "mean()" or "std()", titles containing other references to mean were neglected. 
+The "features.txt" file was then loaded and used determine which measurements were of means or standard deviations, this was taken to mean any feature containing the functions "mean()" or "std()", titles containing other references to mean were neglected. 
 
 The "activity_labels.txt" file was loaded and used to label the activities. The names were converted to lower case.
 The feature names were used to name the variable columns. The names were converted to lower case and the brackets were removed to make them easier to call. Further modifications were not performed to retain links to the original data descriptions.
 
 Averages were then taken of each variable for each subject and activity combination and the outputs stored in a new table. Both long and wide formats were computed.
-The wide format is then outputted to a file named "output_table.txt".
+
+The wide format is then outputted to a file named "output_table.txt". Wide was selected as discussion board conversations indicated this was more widely understood to meet the tidy data principles.
+
 The output corresponds to the 4 tidy data principles, namely: 
 
 1) One variable per column;
