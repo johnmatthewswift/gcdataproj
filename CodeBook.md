@@ -6,15 +6,15 @@ output: "output_table.txt"
 ---
 
 ## Project Description
-Short description of the project
-
-##Study design and data processing
+The project is the course project from the "Getting and Cleaning Data" course on Coursera. 
 
 ###Collection of the raw data
-Description of how the data was collected.
+The raw data was obtained from the source provided by Coursera:
+https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 
 ###Notes on the original (raw) data 
-Some additional notes (if avaialble, otherwise you can leave this section out).
+For more details on the data see the original source:
+http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
 
 ##Creating the tidy datafile
 
@@ -49,5 +49,3 @@ If available, some additional notes on the variable not covered elsewehere. If n
 ##Sources
 Sources you used if any, otherise leave out.
 
-##Annex
-If you used any code in the codebook that had the echo=FALSE attribute post this here (make sure you set the results parameter to 'hide' as you do not want the results to show ag
