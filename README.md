@@ -11,12 +11,6 @@ README.md - Explains the files contained within the repository, how the analysis
 
 run_analysis.R - Contains the R script which performs the analysis.
 
----
-title: "Codebook"
-author: "John Swift"
-date: "22/10/2015"
-output: "output_table.txt"
----
 
 ## Project Description
 The project is the course project from the "Getting and Cleaning Data" course on Coursera.
